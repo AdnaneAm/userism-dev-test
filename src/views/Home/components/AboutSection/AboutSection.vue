@@ -1,6 +1,7 @@
 <template>
-  <section id="about-section" class="container bg-primary h-screen mx-auto">
-    about section
+  <section id="about-section">
+    <div class="container bg-primary h-screen mx-auto">
+    </div>
   </section>
 </template>
 

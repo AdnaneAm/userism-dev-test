@@ -2,8 +2,12 @@
   <section 
     id="hero-section" 
     :style="`background-image:url('${require('@/assets/images/b1234.png')}')`"
-    class="container mx-auto h-screen bg-cover bg-no-repeat bg-center"
+    class="h-screen bg-cover bg-no-repeat bg-center"
   >
+  <div
+    class="container mx-auto"
+  >
+  </div>
   </section>
 </template>
 
