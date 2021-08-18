@@ -1,19 +1,20 @@
 <template>
-  <section 
-    id="hero-section" 
-    :style="`background-image:url('${require('@/assets/images/b1234.png')}')`"
-    class="h-screen bg-cover bg-no-repeat bg-center"
-  >
-  <div
-    class="container mx-auto"
-  >
-  </div>
-  </section>
+  <CarouselContainer :cards="cards"/>
 </template>
 
 <script>
+ import {cards} from './cards.js'
+ import CarouselContainer from './CarouselContainer/CarouselContainer.vue'
   export default {
-    
+    name:'HeroSection',
+    components: {
+      CarouselContainer,
+    },
+    data() {
+      return {
+        cards: cards
+      }
+    },
   }
 </script>
 

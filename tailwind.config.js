@@ -10,15 +10,18 @@ module.exports = {
         primary: '#f2b35e',
         white: '#fff',
         black: '#000',
-        gray:{
-          DEFAULT:'#e5e5e5',
-          dark:'#9b9b9b'
-        }, 
+        gray: '#e5e5e5',
+      },
+      fontFamily:{
+        sans:["Roboto Slab","sans-serif"]
       }
     },
   },
   variants: {
-    extend: {},
+    extend: {
+      cursor:['hover'],
+      border:['hover','focus']
+    },
   },
   plugins: [],
 }
